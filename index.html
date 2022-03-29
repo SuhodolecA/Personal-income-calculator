@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal income calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <main class="wrapper">
         <h1>Personal income calculator</h1>
@@ -14,30 +19,40 @@
             <div class="calculator-data">
                 <fieldset class="calculator-data__column">
                     <legend class="calculator-data-title">Income per month</legend>
-                    <input type="number" placeholder="Salary" id="incom-salary" class="calculator-data__column-input" readonly />
-                    <input type="number" placeholder="Freelance" id="incom-freelance" class="calculator-data__column-input" readonly />
-                    <input type="number" placeholder="Extra income-1" id="incom-extra-1" class="calculator-data__column-input" readonly />
-                    <input type="number" placeholder="Extra income-2" id="incom-extra-2" class="calculator-data__column-input" readonly />
+                    <input type="number" placeholder="Salary" id="incom-salary" class="calculator-data__column-input" />
+                    <input type="number" placeholder="Freelance" id="incom-freelance"
+                        class="calculator-data__column-input" />
+                    <input type="number" placeholder="Extra income-1" id="incom-extra-1"
+                        class="calculator-data__column-input" />
+                    <input type="number" placeholder="Extra income-2" id="incom-extra-2"
+                        class="calculator-data__column-input" />
                 </fieldset>
                 <fieldset class="calculator-data__column">
-                    <legend class="calculator-data__column-title">Сompulsory expenses</legend>
-                    <input type="number" placeholder="House services" id="expenses-house" class="calculator-data__column-input" readonly />
-                    <input type="number" placeholder="Transport" id="expenses-transport" class="calculator-data__column-input" readonly />
-                    <input type="number" placeholder="Credits" id="expenses-credits" class="calculator-data__column-input" readonly />
-                    <input type="number" placeholder="Flat rent" id="expenses-rent" class="calculator-data__column-input" readonly />
+                    <legend class="calculator-data-title">Сompulsory expenses</legend>
+                    <input type="number" placeholder="House services" id="expenses-house"
+                        class="calculator-data__column-input" />
+                    <input type="number" placeholder="Transport" id="expenses-transport"
+                        class="calculator-data__column-input" />
+                    <input type="number" placeholder="Credits" id="expenses-credits"
+                        class="calculator-data__column-input" />
+                    <input type="number" placeholder="Flat rent" id="expenses-rent"
+                        class="calculator-data__column-input" />
                 </fieldset>
-                <div class="calculator-data__output">
+                <div class="calculator-data__column calculator-data__output">
                     <div class="calculator-data__output-display">
-                        <label for="available-month" class="calculator-data__output-display__title">Available per month</label>
-                        <input type="number" class="output-result" id="available-month" value="0" readonly/>
+                        <label for="available-month" class="calculator-data__output-display__title">Available per
+                            month</label>
+                        <input type="number" class="output-result" id="available-month" value="0" readonly />
                     </div>
                     <div class="calculator-data__output-display">
-                        <label for="available-day" class="calculator-data__output-display__title">Available per day</label>
-                        <input type="number" class="output-result" id="available-day" value="0" readonly/>
+                        <label for="available-day" class="calculator-data__output-display__title">Available per
+                            day</label>
+                        <input type="number" class="output-result" id="available-day" value="0" readonly />
                     </div>
                     <div class="calculator-data__output-display">
-                        <label for="accumulated-day" class="calculator-data__output-display__title">Accumulated per day</label>
-                        <input type="number" class="output-result" id="accumulated-day" value="0" readonly/>
+                        <label for="accumulated-day" class="calculator-data__output-display__title">Accumulated per
+                            day</label>
+                        <input type="number" class="output-result" id="accumulated-day" value="0" readonly />
                     </div>
                 </div>
             </div>
@@ -61,9 +76,10 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </main>
-    
+
 </body>
+
 </html>
