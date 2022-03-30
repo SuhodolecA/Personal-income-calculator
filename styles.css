@@ -26,13 +26,13 @@ h1 {
 input {
     font-family: 'Palette Mosaic', cursive;
     font-size: 1em; 
-    color: #7373D9;
+    color: hsl(240, 11%, 17%);
 }
 
 input::placeholder {
     font-family: 'Palette Mosaic', cursive;
     font-size: 1em; 
-    color: #7373D9;
+    color: hsl(240, 11%, 17%);
 }
 
 .wrapper {
@@ -89,7 +89,7 @@ label,
 .precents-sign {
     margin-bottom: .5em;
     font-size: 1.2em;
-    color: #7373D9;
+    color: hsl(240, 11%, 17%);
 }
 
 
