@@ -44,7 +44,6 @@ input::placeholder {
 }
 
 .calculator {
-    /* border: 1px solid red; */
     border-radius: .6em;
     background-color: hsl(34, 100%, 50%);
     padding: 0.5em;
@@ -59,7 +58,6 @@ input::placeholder {
 
 .calculator-data__column {
     border: 0;
-    /* border: 1px solid; */
     display: flex;
     flex-direction: column;
 }
@@ -134,5 +132,9 @@ input[type=number] {
 
     .calculator-data__column + .calculator-data__column {
         margin-top: 1em;
+    }
+
+    .calculator-data__column-input {
+        max-width: none;
     }
 }
