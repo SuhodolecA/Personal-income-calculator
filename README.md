@@ -2,4 +2,4 @@
 
 [Link to my solution](https://personal-income-calculator.vercel.app/)
 
-![](1.png)
+![](/1png.png)
