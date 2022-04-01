@@ -121,3 +121,18 @@ input[type=number] {
     background-color: transparent;
     font-size: 2em;
 }
+
+@media (max-width: 48em) {
+    .calculator-data {
+        flex-direction: column;
+        
+    }
+
+    .calculator-data__column + .calculator-data__column {
+        margin-left: 0;
+    }
+
+    .calculator-data__column + .calculator-data__column {
+        margin-top: 1em;
+    }
+}
