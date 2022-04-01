@@ -137,4 +137,8 @@ input[type=number] {
     .calculator-data__column-input {
         max-width: none;
     }
+
+    h1 {
+        font-size: 1.4em;
+    }
 }
