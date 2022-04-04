@@ -117,7 +117,7 @@ input[type=number] {
     font-size: 2em;
 }
 
-@media (max-width: 48em) {
+@media screen (max-width: 48em) {
     .calculator-data {
         flex-direction: column;
         
