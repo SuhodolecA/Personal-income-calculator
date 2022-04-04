@@ -36,8 +36,6 @@ input::placeholder {
 }
 
 .wrapper {
-    /* max-width: 70em;
-    width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +45,6 @@ input::placeholder {
     border-radius: .6em;
     background-color: hsl(34, 100%, 50%);
     padding: 0.5em;
-    display: inline-block;
 }
 
 .calculator-data {
